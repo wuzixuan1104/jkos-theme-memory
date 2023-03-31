@@ -1,0 +1,38 @@
+@tailwind components;
+
+#searchForm {
+
+}
+
+
+input[type="text"] {
+  padding: 8px 14px;
+  width: 250px;
+  border: 1px solid var(--border1);
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+}
+
+input[type="submit"], button {
+    margin-left: -1px;
+    padding: 8px 14px;
+    border: 1px solid var(--border1);
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 18px;
+    background: var(--btnEnabled);
+    color: white;
+    box-shadow: none;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="submit"].btnEnabled {
+  animation: btnActive 200ms forwards;
+  &:hover {
+    cursor: pointer;
+  }
+}
