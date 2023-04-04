@@ -1,0 +1,1252 @@
+[
+  {
+    "NationalCode": "TWN",
+    "ID": 6002,
+    "Name": "臺灣 TAIWAN"
+  },
+  {
+    "NationalCode": "HKG",
+    "ID": 6084,
+    "Name": "香港 HONG KONG"
+  },
+  {
+    "NationalCode": "IND",
+    "ID": 6087,
+    "Name": "印度 INDIA"
+  },
+  {
+    "NationalCode": "JPN",
+    "ID": 6095,
+    "Name": "日本 JAPAN"
+  },
+  {
+    "NationalCode": "KOR",
+    "ID": 6100,
+    "Name": "韓國 KOREA"
+  },
+  {
+    "NationalCode": "MYS",
+    "ID": 6116,
+    "Name": "馬來西亞 MALAYSIA"
+  },
+  {
+    "NationalCode": "USA",
+    "ID": 6194,
+    "Name": "美國 UNITED STATES"
+  },
+  {
+    "NationalCode": "AFG",
+    "ID": 6511,
+    "Name": "阿富汗 Afghanistan"
+  },
+  {
+    "NationalCode": "ALA",
+    "ID": 6512,
+    "Name": "奧蘭 Aland Islands"
+  },
+  {
+    "NationalCode": "ALB",
+    "ID": 6513,
+    "Name": "阿爾巴尼亞 Albania"
+  },
+  {
+    "NationalCode": "DZA",
+    "ID": 6514,
+    "Name": "阿爾及利亞 Algeria"
+  },
+  {
+    "NationalCode": "ASM",
+    "ID": 6515,
+    "Name": "美屬薩摩亞 American Samoa"
+  },
+  {
+    "NationalCode": "AND",
+    "ID": 6516,
+    "Name": "安道爾 Andorra"
+  },
+  {
+    "NationalCode": "AGO",
+    "ID": 6517,
+    "Name": "安哥拉 Angola"
+  },
+  {
+    "NationalCode": "AIA",
+    "ID": 6518,
+    "Name": "安圭拉 Anguilla"
+  },
+  {
+    "NationalCode": "ATA",
+    "ID": 6519,
+    "Name": "南極洲 Antarctica"
+  },
+  {
+    "NationalCode": "ATG",
+    "ID": 6520,
+    "Name": "安地卡及巴布達 Antigua and Barbuda"
+  },
+  {
+    "NationalCode": "ARG",
+    "ID": 6521,
+    "Name": "阿根廷 Argentina"
+  },
+  {
+    "NationalCode": "ARM",
+    "ID": 6522,
+    "Name": "亞美尼亞 Armenia"
+  },
+  {
+    "NationalCode": "ABW",
+    "ID": 6523,
+    "Name": "阿魯巴 Aruba"
+  },
+  {
+    "NationalCode": "AUS",
+    "ID": 6524,
+    "Name": "澳洲 Australia"
+  },
+  {
+    "NationalCode": "AUT",
+    "ID": 6525,
+    "Name": "奧地利 Austria"
+  },
+  {
+    "NationalCode": "AZE",
+    "ID": 6526,
+    "Name": "亞塞拜然 Azerbaijan"
+  },
+  {
+    "NationalCode": "BHS",
+    "ID": 6527,
+    "Name": "巴哈馬 Bahamas"
+  },
+  {
+    "NationalCode": "BHR",
+    "ID": 6528,
+    "Name": "巴林 Bahrain"
+  },
+  {
+    "NationalCode": "BGD",
+    "ID": 6529,
+    "Name": "孟加拉國 Bangladesh"
+  },
+  {
+    "NationalCode": "BRB",
+    "ID": 6530,
+    "Name": "巴貝多 Barbados"
+  },
+  {
+    "NationalCode": "BLR",
+    "ID": 6531,
+    "Name": "白俄羅斯 Belarus"
+  },
+  {
+    "NationalCode": "BEL",
+    "ID": 6532,
+    "Name": "比利時 Belgium"
+  },
+  {
+    "NationalCode": "BLZ",
+    "ID": 6533,
+    "Name": "貝里斯 Belize"
+  },
+  {
+    "NationalCode": "BEN",
+    "ID": 6534,
+    "Name": "貝南 Benin"
+  },
+  {
+    "NationalCode": "BMU",
+    "ID": 6535,
+    "Name": "百慕達 Bermuda"
+  },
+  {
+    "NationalCode": "BTN",
+    "ID": 6536,
+    "Name": "不丹 Bhutan"
+  },
+  {
+    "NationalCode": "BOL",
+    "ID": 6537,
+    "Name": "玻利維亞 Bolivia (Plurinational State of)"
+  },
+  {
+    "NationalCode": "BES",
+    "ID": 6538,
+    "Name": "荷蘭加勒比區 Bonaire, Sint Eustatius and Saba"
+  },
+  {
+    "NationalCode": "BIH",
+    "ID": 6539,
+    "Name": "波士尼亞與赫塞哥維納 Bosnia and Herzegovina"
+  },
+  {
+    "NationalCode": "BWA",
+    "ID": 6540,
+    "Name": "波札那 Botswana"
+  },
+  {
+    "NationalCode": "BVT",
+    "ID": 6541,
+    "Name": "布韋島 Bouvet Island"
+  },
+  {
+    "NationalCode": "BRA",
+    "ID": 6542,
+    "Name": "巴西 Brazil"
+  },
+  {
+    "NationalCode": "IOT",
+    "ID": 6543,
+    "Name": "英屬印度洋領地 British Indian Ocean Territory"
+  },
+  {
+    "NationalCode": "BRN",
+    "ID": 6544,
+    "Name": "汶萊 Brunei Darussalam"
+  },
+  {
+    "NationalCode": "BGR",
+    "ID": 6545,
+    "Name": "保加利亞 Bulgaria"
+  },
+  {
+    "NationalCode": "BFA",
+    "ID": 6546,
+    "Name": "布吉納法索 Burkina Faso"
+  },
+  {
+    "NationalCode": "BDI",
+    "ID": 6547,
+    "Name": "蒲隆地 Burundi"
+  },
+  {
+    "NationalCode": "CPV",
+    "ID": 6548,
+    "Name": "維德角 Cabo Verde"
+  },
+  {
+    "NationalCode": "KHM",
+    "ID": 6549,
+    "Name": "柬埔寨 Cambodia"
+  },
+  {
+    "NationalCode": "CMR",
+    "ID": 6550,
+    "Name": "喀麥隆 Cameroon"
+  },
+  {
+    "NationalCode": "CAN",
+    "ID": 6551,
+    "Name": "加拿大 Canada"
+  },
+  {
+    "NationalCode": "CYM",
+    "ID": 6552,
+    "Name": "開曼群島 Cayman Islands"
+  },
+  {
+    "NationalCode": "CAF",
+    "ID": 6553,
+    "Name": "中非 Central African Republic"
+  },
+  {
+    "NationalCode": "TCD",
+    "ID": 6554,
+    "Name": "查德 Chad"
+  },
+  {
+    "NationalCode": "CHL",
+    "ID": 6555,
+    "Name": "智利 Chile"
+  },
+  {
+    "NationalCode": "CHN",
+    "ID": 6556,
+    "Name": "中國 China"
+  },
+  {
+    "NationalCode": "CXR",
+    "ID": 6557,
+    "Name": "聖誕島 Christmas Island"
+  },
+  {
+    "NationalCode": "CCK",
+    "ID": 6558,
+    "Name": "科科斯（基林）群島 Cocos (Keeling) Islands"
+  },
+  {
+    "NationalCode": "COL",
+    "ID": 6559,
+    "Name": "哥倫比亞 Colombia"
+  },
+  {
+    "NationalCode": "COM",
+    "ID": 6560,
+    "Name": "葛摩 Comoros"
+  },
+  {
+    "NationalCode": "COG",
+    "ID": 6561,
+    "Name": "剛果 Congo"
+  },
+  {
+    "NationalCode": "COD",
+    "ID": 6562,
+    "Name": "民主剛果 Congo (Democratic Republic of the)"
+  },
+  {
+    "NationalCode": "COK",
+    "ID": 6563,
+    "Name": "庫克群島 Cook Islands"
+  },
+  {
+    "NationalCode": "CRI",
+    "ID": 6564,
+    "Name": "哥斯大黎加 Costa Rica"
+  },
+  {
+    "NationalCode": "CIV",
+    "ID": 6565,
+    "Name": "象牙海岸 Cote d^Ivoire"
+  },
+  {
+    "NationalCode": "HRV",
+    "ID": 6566,
+    "Name": "克羅埃西亞 Croatia"
+  },
+  {
+    "NationalCode": "CUB",
+    "ID": 6567,
+    "Name": "古巴 Cuba"
+  },
+  {
+    "NationalCode": "CUW",
+    "ID": 6568,
+    "Name": "庫拉索 Curacao"
+  },
+  {
+    "NationalCode": "CYP",
+    "ID": 6569,
+    "Name": "賽普勒斯 Cyprus"
+  },
+  {
+    "NationalCode": "CZE",
+    "ID": 6570,
+    "Name": "捷克 Czechia"
+  },
+  {
+    "NationalCode": "DNK",
+    "ID": 6571,
+    "Name": "丹麥 Denmark"
+  },
+  {
+    "NationalCode": "DJI",
+    "ID": 6572,
+    "Name": "吉布地 Djibouti"
+  },
+  {
+    "NationalCode": "DMA",
+    "ID": 6573,
+    "Name": "多米尼克 Dominica"
+  },
+  {
+    "NationalCode": "DOM",
+    "ID": 6574,
+    "Name": "多明尼加 Dominican Republic"
+  },
+  {
+    "NationalCode": "ECU",
+    "ID": 6575,
+    "Name": "厄瓜多 Ecuador"
+  },
+  {
+    "NationalCode": "EGY",
+    "ID": 6576,
+    "Name": "埃及 Egypt"
+  },
+  {
+    "NationalCode": "SLV",
+    "ID": 6577,
+    "Name": "薩爾瓦多 El Salvador"
+  },
+  {
+    "NationalCode": "GNQ",
+    "ID": 6578,
+    "Name": "赤道幾內亞 Equatorial Guinea"
+  },
+  {
+    "NationalCode": "ERI",
+    "ID": 6579,
+    "Name": "厄利垂亞 Eritrea"
+  },
+  {
+    "NationalCode": "EST",
+    "ID": 6580,
+    "Name": "愛沙尼亞 Estonia"
+  },
+  {
+    "NationalCode": "ETH",
+    "ID": 6581,
+    "Name": "衣索比亞 Ethiopia"
+  },
+  {
+    "NationalCode": "FLK",
+    "ID": 6582,
+    "Name": "福克蘭群島 Falkland Islands (Malvinas)"
+  },
+  {
+    "NationalCode": "FRO",
+    "ID": 6583,
+    "Name": "法羅群島 Faroe Islands"
+  },
+  {
+    "NationalCode": "FJI",
+    "ID": 6584,
+    "Name": "斐濟 Fiji"
+  },
+  {
+    "NationalCode": "FIN",
+    "ID": 6585,
+    "Name": "芬蘭 Finland"
+  },
+  {
+    "NationalCode": "FRA",
+    "ID": 6586,
+    "Name": "法國 France"
+  },
+  {
+    "NationalCode": "GUF",
+    "ID": 6587,
+    "Name": "法屬圭亞那 French Guiana"
+  },
+  {
+    "NationalCode": "PYF",
+    "ID": 6588,
+    "Name": "法屬玻里尼西亞 French Polynesia"
+  },
+  {
+    "NationalCode": "ATF",
+    "ID": 6589,
+    "Name": "法屬南方和南極洲領地 French Southern Territories"
+  },
+  {
+    "NationalCode": "GAB",
+    "ID": 6590,
+    "Name": "加彭 Gabon"
+  },
+  {
+    "NationalCode": "GMB",
+    "ID": 6591,
+    "Name": "甘比亞 Gambia"
+  },
+  {
+    "NationalCode": "GEO",
+    "ID": 6592,
+    "Name": "喬治亞 Georgia"
+  },
+  {
+    "NationalCode": "DEU",
+    "ID": 6593,
+    "Name": "德國 Germany"
+  },
+  {
+    "NationalCode": "GHA",
+    "ID": 6594,
+    "Name": "加納 Ghana"
+  },
+  {
+    "NationalCode": "GIB",
+    "ID": 6595,
+    "Name": "直布羅陀 Gibraltar"
+  },
+  {
+    "NationalCode": "GRC",
+    "ID": 6596,
+    "Name": "希臘 Greece"
+  },
+  {
+    "NationalCode": "GRL",
+    "ID": 6597,
+    "Name": "格陵蘭 Greenland"
+  },
+  {
+    "NationalCode": "GRD",
+    "ID": 6598,
+    "Name": "格瑞那達 Grenada"
+  },
+  {
+    "NationalCode": "GLP",
+    "ID": 6599,
+    "Name": "瓜德羅普 Guadeloupe"
+  },
+  {
+    "NationalCode": "GUM",
+    "ID": 6600,
+    "Name": "關島 Guam"
+  },
+  {
+    "NationalCode": "GTM",
+    "ID": 6601,
+    "Name": "瓜地馬拉 Guatemala"
+  },
+  {
+    "NationalCode": "GGY",
+    "ID": 6602,
+    "Name": "根西 Guernsey"
+  },
+  {
+    "NationalCode": "GIN",
+    "ID": 6603,
+    "Name": "幾內亞 Guinea"
+  },
+  {
+    "NationalCode": "GNB",
+    "ID": 6604,
+    "Name": "幾內亞比索 Guinea-Bissau"
+  },
+  {
+    "NationalCode": "GUY",
+    "ID": 6605,
+    "Name": "蓋亞那 Guyana"
+  },
+  {
+    "NationalCode": "HTI",
+    "ID": 6606,
+    "Name": "海地 Haiti"
+  },
+  {
+    "NationalCode": "HMD",
+    "ID": 6607,
+    "Name": "赫德島和麥克唐納群島 Heard Island and McDonald Islands"
+  },
+  {
+    "NationalCode": "VAT",
+    "ID": 6608,
+    "Name": "梵蒂岡 Holy See"
+  },
+  {
+    "NationalCode": "HND",
+    "ID": 6609,
+    "Name": "宏都拉斯 Honduras"
+  },
+  {
+    "NationalCode": "HUN",
+    "ID": 6610,
+    "Name": "匈牙利 Hungary"
+  },
+  {
+    "NationalCode": "ISL",
+    "ID": 6611,
+    "Name": "冰島 Iceland"
+  },
+  {
+    "NationalCode": "IDN",
+    "ID": 6612,
+    "Name": "印尼 Indonesia"
+  },
+  {
+    "NationalCode": "IRN",
+    "ID": 6613,
+    "Name": "伊朗 Iran (Islamic Republic of)"
+  },
+  {
+    "NationalCode": "IRQ",
+    "ID": 6614,
+    "Name": "伊拉克 Iraq"
+  },
+  {
+    "NationalCode": "IRL",
+    "ID": 6615,
+    "Name": "愛爾蘭 Ireland"
+  },
+  {
+    "NationalCode": "IMN",
+    "ID": 6616,
+    "Name": "曼島 Isle of Man"
+  },
+  {
+    "NationalCode": "ISR",
+    "ID": 6617,
+    "Name": "以色列 Israel"
+  },
+  {
+    "NationalCode": "ITA",
+    "ID": 6618,
+    "Name": "義大利 Italy"
+  },
+  {
+    "NationalCode": "JAM",
+    "ID": 6619,
+    "Name": "牙買加 Jamaica"
+  },
+  {
+    "NationalCode": "JEY",
+    "ID": 6620,
+    "Name": "澤西 Jersey"
+  },
+  {
+    "NationalCode": "JOR",
+    "ID": 6621,
+    "Name": "約旦 Jordan"
+  },
+  {
+    "NationalCode": "KAZ",
+    "ID": 6622,
+    "Name": "哈薩克 Kazakhstan"
+  },
+  {
+    "NationalCode": "KEN",
+    "ID": 6623,
+    "Name": "肯亞 Kenya"
+  },
+  {
+    "NationalCode": "KIR",
+    "ID": 6624,
+    "Name": "吉里巴斯 Kiribati"
+  },
+  {
+    "NationalCode": "PRK",
+    "ID": 6625,
+    "Name": "北韓 Korea (Democratic People^s Republic of)"
+  },
+  {
+    "NationalCode": "KWT",
+    "ID": 6626,
+    "Name": "科威特 Kuwait"
+  },
+  {
+    "NationalCode": "KGZ",
+    "ID": 6627,
+    "Name": "吉爾吉斯 Kyrgyzstan"
+  },
+  {
+    "NationalCode": "LAO",
+    "ID": 6628,
+    "Name": "寮國 Lao People^s Democratic Republic"
+  },
+  {
+    "NationalCode": "LVA",
+    "ID": 6629,
+    "Name": "拉脫維亞 Latvia"
+  },
+  {
+    "NationalCode": "LBN",
+    "ID": 6630,
+    "Name": "黎巴嫩 Lebanon"
+  },
+  {
+    "NationalCode": "LSO",
+    "ID": 6631,
+    "Name": "賴索托 Lesotho"
+  },
+  {
+    "NationalCode": "LBR",
+    "ID": 6632,
+    "Name": "賴比瑞亞 Liberia"
+  },
+  {
+    "NationalCode": "LBY",
+    "ID": 6633,
+    "Name": "利比亞 Libya"
+  },
+  {
+    "NationalCode": "LIE",
+    "ID": 6634,
+    "Name": "列支敦斯登 Liechtenstein"
+  },
+  {
+    "NationalCode": "LTU",
+    "ID": 6635,
+    "Name": "立陶宛 Lithuania"
+  },
+  {
+    "NationalCode": "LUX",
+    "ID": 6636,
+    "Name": "盧森堡 Luxembourg"
+  },
+  {
+    "NationalCode": "MAC",
+    "ID": 6637,
+    "Name": "澳門 Macao"
+  },
+  {
+    "NationalCode": "MKD",
+    "ID": 6638,
+    "Name": "馬其頓 Macedonia (the former Yugoslav Republic of)"
+  },
+  {
+    "NationalCode": "MDG",
+    "ID": 6639,
+    "Name": "馬達加斯加 Madagascar"
+  },
+  {
+    "NationalCode": "MWI",
+    "ID": 6640,
+    "Name": "馬拉威 Malawi"
+  },
+  {
+    "NationalCode": "MDV",
+    "ID": 6641,
+    "Name": "馬爾地夫 Maldives"
+  },
+  {
+    "NationalCode": "MLI",
+    "ID": 6642,
+    "Name": "馬利 Mali"
+  },
+  {
+    "NationalCode": "MLT",
+    "ID": 6643,
+    "Name": "馬爾他 Malta"
+  },
+  {
+    "NationalCode": "MHL",
+    "ID": 6644,
+    "Name": "馬紹爾群島 Marshall Islands"
+  },
+  {
+    "NationalCode": "MTQ",
+    "ID": 6645,
+    "Name": "馬提尼克 Martinique"
+  },
+  {
+    "NationalCode": "MRT",
+    "ID": 6646,
+    "Name": "茅利塔尼亞 Mauritania"
+  },
+  {
+    "NationalCode": "MUS",
+    "ID": 6647,
+    "Name": "模里西斯 Mauritius"
+  },
+  {
+    "NationalCode": "MYT",
+    "ID": 6648,
+    "Name": "馬約特 Mayotte"
+  },
+  {
+    "NationalCode": "MEX",
+    "ID": 6649,
+    "Name": "墨西哥 Mexico"
+  },
+  {
+    "NationalCode": "FSM",
+    "ID": 6650,
+    "Name": "密克羅尼西亞聯邦 Micronesia (Federated States of)"
+  },
+  {
+    "NationalCode": "MDA",
+    "ID": 6651,
+    "Name": "摩爾多瓦 Moldova (Republic of)"
+  },
+  {
+    "NationalCode": "MCO",
+    "ID": 6652,
+    "Name": "摩納哥 Monaco"
+  },
+  {
+    "NationalCode": "MNG",
+    "ID": 6653,
+    "Name": "蒙古國 Mongolia"
+  },
+  {
+    "NationalCode": "MNE",
+    "ID": 6654,
+    "Name": "蒙特內哥羅 Montenegro"
+  },
+  {
+    "NationalCode": "MSR",
+    "ID": 6655,
+    "Name": "蒙特塞拉特 Montserrat"
+  },
+  {
+    "NationalCode": "MAR",
+    "ID": 6656,
+    "Name": "摩洛哥 Morocco"
+  },
+  {
+    "NationalCode": "MOZ",
+    "ID": 6657,
+    "Name": "莫三比克 Mozambique"
+  },
+  {
+    "NationalCode": "MMR",
+    "ID": 6658,
+    "Name": "緬甸 Myanmar"
+  },
+  {
+    "NationalCode": "NAM",
+    "ID": 6659,
+    "Name": "納米比亞 Namibia"
+  },
+  {
+    "NationalCode": "NRU",
+    "ID": 6660,
+    "Name": "諾魯 Nauru"
+  },
+  {
+    "NationalCode": "NPL",
+    "ID": 6661,
+    "Name": "尼泊爾 Nepal"
+  },
+  {
+    "NationalCode": "NLD",
+    "ID": 6662,
+    "Name": "荷蘭 Netherlands"
+  },
+  {
+    "NationalCode": "NCL",
+    "ID": 6663,
+    "Name": "新喀里多尼亞 New Caledonia"
+  },
+  {
+    "NationalCode": "NZL",
+    "ID": 6664,
+    "Name": "紐西蘭 New Zealand"
+  },
+  {
+    "NationalCode": "NIC",
+    "ID": 6665,
+    "Name": "尼加拉瓜 Nicaragua"
+  },
+  {
+    "NationalCode": "NER",
+    "ID": 6666,
+    "Name": "尼日 Niger"
+  },
+  {
+    "NationalCode": "NGA",
+    "ID": 6667,
+    "Name": "奈及利亞 Nigeria"
+  },
+  {
+    "NationalCode": "NIU",
+    "ID": 6668,
+    "Name": "紐埃 Niue"
+  },
+  {
+    "NationalCode": "NFK",
+    "ID": 6669,
+    "Name": "諾福克島 Norfolk Island"
+  },
+  {
+    "NationalCode": "MNP",
+    "ID": 6670,
+    "Name": "北馬里亞納群島 Northern Mariana Islands"
+  },
+  {
+    "NationalCode": "NOR",
+    "ID": 6671,
+    "Name": "挪威 Norway"
+  },
+  {
+    "NationalCode": "OMN",
+    "ID": 6672,
+    "Name": "阿曼 Oman"
+  },
+  {
+    "NationalCode": "PAK",
+    "ID": 6673,
+    "Name": "巴基斯坦 Pakistan"
+  },
+  {
+    "NationalCode": "PLW",
+    "ID": 6674,
+    "Name": "帛琉 Palau"
+  },
+  {
+    "NationalCode": "PSE",
+    "ID": 6675,
+    "Name": "巴勒斯坦 Palestine, State of"
+  },
+  {
+    "NationalCode": "PAN",
+    "ID": 6676,
+    "Name": "巴拿馬 Panama"
+  },
+  {
+    "NationalCode": "PNG",
+    "ID": 6677,
+    "Name": "巴布亞紐幾內亞 Papua New Guinea"
+  },
+  {
+    "NationalCode": "PRY",
+    "ID": 6678,
+    "Name": "巴拉圭 Paraguay"
+  },
+  {
+    "NationalCode": "PER",
+    "ID": 6679,
+    "Name": "秘魯 Peru"
+  },
+  {
+    "NationalCode": "PHL",
+    "ID": 6680,
+    "Name": "菲律賓 Philippines"
+  },
+  {
+    "NationalCode": "PCN",
+    "ID": 6681,
+    "Name": "皮特凱恩群島 Pitcairn"
+  },
+  {
+    "NationalCode": "POL",
+    "ID": 6682,
+    "Name": "波蘭 Poland"
+  },
+  {
+    "NationalCode": "PRT",
+    "ID": 6683,
+    "Name": "葡萄牙 Portugal"
+  },
+  {
+    "NationalCode": "PRI",
+    "ID": 6684,
+    "Name": "波多黎各 Puerto Rico"
+  },
+  {
+    "NationalCode": "QAT",
+    "ID": 6685,
+    "Name": "卡達 Qatar"
+  },
+  {
+    "NationalCode": "REU",
+    "ID": 6686,
+    "Name": "留尼旺 Reunion"
+  },
+  {
+    "NationalCode": "ROU",
+    "ID": 6687,
+    "Name": "羅馬尼亞 Romania"
+  },
+  {
+    "NationalCode": "RUS",
+    "ID": 6688,
+    "Name": "俄羅斯 Russian Federation"
+  },
+  {
+    "NationalCode": "RWA",
+    "ID": 6689,
+    "Name": "盧安達 Rwanda"
+  },
+  {
+    "NationalCode": "BLM",
+    "ID": 6690,
+    "Name": "聖巴泰勒米 Saint Barthelemy"
+  },
+  {
+    "NationalCode": "SHN",
+    "ID": 6691,
+    "Name": "聖赫倫那、阿森松和特里斯坦-達庫尼亞 Saint Helena, Ascension and Tristan da Cunha"
+  },
+  {
+    "NationalCode": "KNA",
+    "ID": 6692,
+    "Name": "聖克里斯多福及尼維斯 Saint Kitts and Nevis"
+  },
+  {
+    "NationalCode": "LCA",
+    "ID": 6693,
+    "Name": "聖露西亞 Saint Lucia"
+  },
+  {
+    "NationalCode": "MAF",
+    "ID": 6694,
+    "Name": "法屬聖馬丁 Saint Martin (French part)"
+  },
+  {
+    "NationalCode": "SPM",
+    "ID": 6695,
+    "Name": "聖皮埃爾和密克隆 Saint Pierre and Miquelon"
+  },
+  {
+    "NationalCode": "VCT",
+    "ID": 6696,
+    "Name": "聖文森及格瑞那丁 Saint Vincent and the Grenadines"
+  },
+  {
+    "NationalCode": "WSM",
+    "ID": 6697,
+    "Name": "薩摩亞 Samoa"
+  },
+  {
+    "NationalCode": "SMR",
+    "ID": 6698,
+    "Name": "聖馬利諾 San Marino"
+  },
+  {
+    "NationalCode": "STP",
+    "ID": 6699,
+    "Name": "聖多美和普林西比 Sao Tome and Principe"
+  },
+  {
+    "NationalCode": "SAU",
+    "ID": 6700,
+    "Name": "沙烏地阿拉伯 Saudi Arabia"
+  },
+  {
+    "NationalCode": "SEN",
+    "ID": 6701,
+    "Name": "塞內加爾 Senegal"
+  },
+  {
+    "NationalCode": "SRB",
+    "ID": 6702,
+    "Name": "塞爾維亞 Serbia"
+  },
+  {
+    "NationalCode": "SYC",
+    "ID": 6703,
+    "Name": "塞席爾 Seychelles"
+  },
+  {
+    "NationalCode": "SLE",
+    "ID": 6704,
+    "Name": "獅子山 Sierra Leone"
+  },
+  {
+    "NationalCode": "SGP",
+    "ID": 6705,
+    "Name": "新加坡 Singapore"
+  },
+  {
+    "NationalCode": "SXM",
+    "ID": 6706,
+    "Name": "聖馬丁 Sint Maarten (Dutch part)"
+  },
+  {
+    "NationalCode": "SVK",
+    "ID": 6707,
+    "Name": "斯洛伐克 Slovakia"
+  },
+  {
+    "NationalCode": "SVN",
+    "ID": 6708,
+    "Name": "斯洛維尼亞 Slovenia"
+  },
+  {
+    "NationalCode": "SLB",
+    "ID": 6709,
+    "Name": "索羅門群島 Solomon Islands"
+  },
+  {
+    "NationalCode": "SOM",
+    "ID": 6710,
+    "Name": "索馬利亞 Somalia"
+  },
+  {
+    "NationalCode": "ZAF",
+    "ID": 6711,
+    "Name": "南非 South Africa"
+  },
+  {
+    "NationalCode": "SGS",
+    "ID": 6712,
+    "Name": "南喬治亞和南桑威奇群島 South Georgia and the South Sandwich Islands"
+  },
+  {
+    "NationalCode": "SSD",
+    "ID": 6713,
+    "Name": "南蘇丹 South Sudan"
+  },
+  {
+    "NationalCode": "ESP",
+    "ID": 6714,
+    "Name": "西班牙 Spain"
+  },
+  {
+    "NationalCode": "LKA",
+    "ID": 6715,
+    "Name": "斯里蘭卡 Sri Lanka"
+  },
+  {
+    "NationalCode": "SDN",
+    "ID": 6716,
+    "Name": "蘇丹 Sudan"
+  },
+  {
+    "NationalCode": "SUR",
+    "ID": 6717,
+    "Name": "蘇利南 Suriname"
+  },
+  {
+    "NationalCode": "SJM",
+    "ID": 6718,
+    "Name": "斯瓦爾巴和揚馬延 Svalbard and Jan Mayen"
+  },
+  {
+    "NationalCode": "SWZ",
+    "ID": 6719,
+    "Name": "史瓦濟蘭 Swaziland"
+  },
+  {
+    "NationalCode": "SWE",
+    "ID": 6720,
+    "Name": "瑞典 Sweden"
+  },
+  {
+    "NationalCode": "CHE",
+    "ID": 6721,
+    "Name": "瑞士 Switzerland"
+  },
+  {
+    "NationalCode": "SYR",
+    "ID": 6722,
+    "Name": "敘利亞 Syrian Arab Republic"
+  },
+  {
+    "NationalCode": "TJK",
+    "ID": 6723,
+    "Name": "塔吉克 Tajikistan"
+  },
+  {
+    "NationalCode": "TZA",
+    "ID": 6724,
+    "Name": "坦尚尼亞 Tanzania, United Republic of"
+  },
+  {
+    "NationalCode": "THA",
+    "ID": 6725,
+    "Name": "泰國 Thailand"
+  },
+  {
+    "NationalCode": "TLS",
+    "ID": 6726,
+    "Name": "東帝汶 Timor-Leste"
+  },
+  {
+    "NationalCode": "TGO",
+    "ID": 6727,
+    "Name": "多哥 Togo"
+  },
+  {
+    "NationalCode": "TKL",
+    "ID": 6728,
+    "Name": "托克勞 Tokelau"
+  },
+  {
+    "NationalCode": "TON",
+    "ID": 6729,
+    "Name": "東加 Tonga"
+  },
+  {
+    "NationalCode": "TTO",
+    "ID": 6730,
+    "Name": "千里達及托巴哥 Trinidad and Tobago"
+  },
+  {
+    "NationalCode": "TUN",
+    "ID": 6731,
+    "Name": "突尼西亞 Tunisia"
+  },
+  {
+    "NationalCode": "TUR",
+    "ID": 6732,
+    "Name": "土耳其 Turkey"
+  },
+  {
+    "NationalCode": "TKM",
+    "ID": 6733,
+    "Name": "土庫曼 Turkmenistan"
+  },
+  {
+    "NationalCode": "TCA",
+    "ID": 6734,
+    "Name": "特克斯與凱科斯群島 Turks and Caicos Islands"
+  },
+  {
+    "NationalCode": "TUV",
+    "ID": 6735,
+    "Name": "吐瓦魯 Tuvalu"
+  },
+  {
+    "NationalCode": "UGA",
+    "ID": 6736,
+    "Name": "烏干達 Uganda"
+  },
+  {
+    "NationalCode": "UKR",
+    "ID": 6737,
+    "Name": "烏克蘭 Ukraine"
+  },
+  {
+    "NationalCode": "ARE",
+    "ID": 6738,
+    "Name": "阿聯 United Arab Emirates"
+  },
+  {
+    "NationalCode": "GBR",
+    "ID": 6739,
+    "Name": "英國 UK"
+  },
+  {
+    "NationalCode": "UMI",
+    "ID": 6740,
+    "Name": "美國本土外小島嶼 United States Minor Outlying Islands"
+  },
+  {
+    "NationalCode": "URY",
+    "ID": 6741,
+    "Name": "烏拉圭 Uruguay"
+  },
+  {
+    "NationalCode": "UZB",
+    "ID": 6742,
+    "Name": "烏茲別克 Uzbekistan"
+  },
+  {
+    "NationalCode": "VUT",
+    "ID": 6743,
+    "Name": "萬那杜 Vanuatu"
+  },
+  {
+    "NationalCode": "VEN",
+    "ID": 6744,
+    "Name": "委內瑞拉 Venezuela (Bolivarian Republic of)"
+  },
+  {
+    "NationalCode": "VNM",
+    "ID": 6745,
+    "Name": "越南 Viet Nam"
+  },
+  {
+    "NationalCode": "VGB",
+    "ID": 6746,
+    "Name": "英屬維京群島 Virgin Islands (British)"
+  },
+  {
+    "NationalCode": "VIR",
+    "ID": 6747,
+    "Name": "美屬維京群島 Virgin Islands (U.S.)"
+  },
+  {
+    "NationalCode": "WLF",
+    "ID": 6748,
+    "Name": "瓦利斯和富圖納 Wallis and Futuna"
+  },
+  {
+    "NationalCode": "ESH",
+    "ID": 6749,
+    "Name": "西撒哈拉 Western Sahara"
+  },
+  {
+    "NationalCode": "YEM",
+    "ID": 6750,
+    "Name": "葉門 Yemen"
+  },
+  {
+    "NationalCode": "ZMB",
+    "ID": 6751,
+    "Name": "尚比亞 Zambia"
+  },
+  {
+    "NationalCode": "ZWE",
+    "ID": 6752,
+    "Name": "辛巴威 Zimbabwe"
+  },
+  {
+    "NationalCode": "NON",
+    "ID": 6854,
+    "Name": "無國籍 Statelessness"
+  }
+]

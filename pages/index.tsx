@@ -12,8 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-          <NavigationBar />
-          <NationalList />
+        <NavigationBar />
+        <NationalList />
       </main>
     </>
   )
