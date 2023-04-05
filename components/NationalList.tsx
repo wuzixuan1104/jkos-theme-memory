@@ -3,22 +3,31 @@ import { NationalityContext } from '@/data/storage'
 import { useStorage } from '@/hooks/useStorage'
 import { useEffect, useState, useRef, useReducer } from 'react'
 import { INationalityPageProps, INationalityData } from '@/data/typing'
-import { nationalitiesOfKeyword, nationalitiesOfPage } from '@/utils/nationalities' 
 import { useObserver } from '@/hooks/useObserver'
 import { uniqObjectArray } from '@/utils/uniques'
+import { getNationalitiesApi } from '@/api/getNationalitiesApi'
+import { v4 as uuidv4 } from 'uuid';
+import { useCache } from '@/hooks/useCache'
 
 const INITIAL_PAGE = {
   current: 0,
   limit: 30
 }
 
+let requestId: string = ''
+let prevKeyword: string = ''
+let timer: any = null
+
 export default function NationalList() {
   const { keyword } = useStorage(NationalityContext)
   const canseemeRef = useRef<HTMLDivElement | null>(null)
   
   const [loading, setLoading] = useState(false)
+  const [forceCheck, setForceCheck] = useReducer(() => new Date().getTime(), 0)
   const [page, setPage] = useState<INationalityPageProps>(INITIAL_PAGE)
   const [list, setList] = useState<INationalityData[]>([])
+
+  const cache = useCache()
 
   const handleNextPage = () => !loading && setPage(prev => ({ ...prev, current: prev.current + 1}))
 
@@ -27,8 +36,34 @@ export default function NationalList() {
   })
 
   useEffect(() => {
+    // 每秒檢查 keyword 是否改變, 被動檢查 keyword
+    timer = setInterval(() => {
+      setForceCheck() // react 18 fixed
+      let a = garbageClosure()
+      
+      setTimeout(() => {
+        a()
+      }, 3000)
+
+      console.log('[Interval check]');
+    }, 500)
+
+    return () => {
+      console.log('Component is unmounted');
+      cache.deleteAll()
+      timer && clearInterval(timer)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (prevKeyword !== keyword) resetPageList()
+    prevKeyword = keyword
+  }, [forceCheck])
+
+
+  useEffect(() => {
     setLoading(true)
-    handleOnUpdate(keyword)
+    handleOnUpdate()
   }, [page])
 
 
@@ -37,22 +72,34 @@ export default function NationalList() {
       createObserver(canseemeRef.current);
   }, [canseemeRef])
 
+  const garbageClosure = () => {
+    return function () {
+    const a = new Array(1000000).fill("garbabe");
 
-  useEffect(() => {
-    resetPageList()
-  }, [keyword])
+      console.log('garbageClosure', a);
+    }
+  }
 
-  const handleOnUpdate = (words: string) => {
-    const dataInPage = (source: INationalityData[]) => nationalitiesOfPage(source, page)
-    setList(prev => uniqObjectArray<INationalityData>([ ...prev, ...dataInPage(nationalitiesOfKeyword(words))], 'ID'))
+  const handleOnUpdate = async (): Promise<void> => {
+    requestId = uuidv4()
+    const cacheData = cache.get({ page, keyword })
+
+    if (!cacheData) {
+      const { requestId: originalReqId , response } = await getNationalitiesApi({ page, keyword, requestId })
+      cache.set({ page, keyword, data: response })
+      if (originalReqId !== requestId) return
+    }
+    
+    setList(prev => uniqObjectArray<INationalityData>([ ...prev, ...cache.get({ page, keyword })], 'ID'))
     setLoading(false)
   }
 
   const resetPageList = () => {
     setPage(INITIAL_PAGE)
     setList([])
+
     if (page.current === INITIAL_PAGE.current) 
-      handleOnUpdate(keyword)
+      handleOnUpdate()
   }
 
   return (

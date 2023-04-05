@@ -20,7 +20,9 @@ export function useObserver({
 
   useEffect(() => {
     return () => {
-      if (observer && observed) observer.unobserve(observed)
+      if (observer && observed) {
+        observer.unobserve(observed)
+      }
     }
   }, [])
 
