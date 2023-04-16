@@ -4,8 +4,6 @@ import NationalList from '@/components/NationalList'
 import { useState } from 'react'
 
 export default function Search() {
-  const [show, setShow] = useState(false)
-
   return (
     <>
       <Head>
@@ -16,9 +14,7 @@ export default function Search() {
       </Head>
       <main>
         <NavigationBar />
-        {!show && <span onClick={() => setShow(true)} className="fixed left-[20px] top-[150px] px-4 py-2 bg-[#363636] rounded-md text-white">Go</span>}
-        {show && <span onClick={() => setShow(false)} className="fixed left-[20px] top-[150px] px-4 py-2 bg-[#363636] rounded-md text-white">Back</span>}
-        {show ? <NationalList /> : null}
+        <NationalList />
       </main>
     </>
   )

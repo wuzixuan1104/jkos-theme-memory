@@ -39,13 +39,13 @@ export default function NationalList() {
     // 每秒檢查 keyword 是否改變, 被動檢查 keyword
     timer = setInterval(() => {
       setForceCheck() // react 18 fixed
-      let a = garbageClosure()
+      // let a = garbageClosure()
       
-      setTimeout(() => {
-        a()
-      }, 3000)
+      // setTimeout(() => {
+      //   a()
+      // }, 3000)
 
-      console.log('[Interval check]');
+      // console.log('[Interval check]');
     }, 500)
 
     return () => {
@@ -72,20 +72,26 @@ export default function NationalList() {
       createObserver(canseemeRef.current);
   }, [canseemeRef])
 
-  const garbageClosure = () => {
-    return function () {
-    const a = new Array(1000000).fill("garbabe");
-
-      console.log('garbageClosure', a);
-    }
-  }
+  // const garbageClosure = () => {
+  //   return function () {
+  //     const a = new Array(1000000).fill("garbabe");
+  //     console.log('garbageClosure', a);
+  //   }
+  // }
 
   const handleOnUpdate = async (): Promise<void> => {
     requestId = uuidv4()
-    const cacheData = cache.get({ page, keyword })
+    console.log('update');
+    
+    // const cacheData = cache.get({ page, keyword })
+    const cacheData = null
 
     if (!cacheData) {
-      const { requestId: originalReqId , response } = await getNationalitiesApi({ page, keyword, requestId })
+      const { requestId: originalReqId , response } = await (await fetch('/api/nationalities', { body: JSON.stringify({ page, keyword, requestId }), method: 'POST'})).json()
+      console.log(
+        'res', response
+      );
+      
       cache.set({ page, keyword, data: response })
       if (originalReqId !== requestId) return
     }
@@ -95,6 +101,8 @@ export default function NationalList() {
   }
 
   const resetPageList = () => {
+    console.log("resetList");
+    
     setPage(INITIAL_PAGE)
     setList([])
 
