@@ -16,10 +16,11 @@ https://github.com/facebook/react/pull/24195
 
 ## Use Tool
 
-1. 情境
+1. 產生問題
+- 找出規律操作
 - request 次數
   - `k6 run --duration 2m --vus 100 ddos.js`
-- 固定的操作會卡死？
+
 
 2. 比較操作前後的快照 
 ![](https://i.imgur.com/KtjO3QO.png)
